@@ -1,6 +1,13 @@
 /* Fuentes y Reset */
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Herr+Von+Muellerhoff&family=Roboto:wght@300;400&display=swap");
 
+@font-face {
+    font-family: 'Batangas Bold';
+    src: url('./Batangas\ Bold\ 700.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -120,7 +127,7 @@ body {
 }
 
 .subtitle {
-  font-family: "Cinzel", serif;
+  font-family: "Batangas Bold", "Cinzel", serif;
   font-size: 24px;
   color: #b37e34;
   margin-bottom: 40px;
